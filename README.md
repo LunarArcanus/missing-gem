@@ -1,0 +1,1 @@
+Uses React. Includes the necessary configuration files for webpack.

@@ -1,6 +1,5 @@
-html, body, #root {
-    width: 100%;
-    height: 100%;
+html {
+    overflow-x: hidden;
 }
 
 #header {
@@ -10,20 +9,36 @@ html, body, #root {
 }
 
 #information {
-    margin-top: 15%;
+    margin-top: 3%;
     text-align: center;
     font-size: 1.5rem;
 }
 
 #score {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-#gem-example img {
+.gem-example {
     width: 5%;
     height: 5%;
+}
+
+#interactive-area {
+    margin-top: 5%;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#int-row {
+    width: 100%;
+}
+
+.house {
+    width: 20%;
+    height: 20%;
+    margin-right: 20%;
 }
