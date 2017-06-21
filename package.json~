@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "A game to find the missing gem",
   "main": "webpack.config.js",
-  "repository": {
-      "type" : "git",
-      "url" : "https://github.com/LunarArcanus/missing-gem.git"
-  },
   "scripts": {
     "start": "webpack-dev-server"
   },
